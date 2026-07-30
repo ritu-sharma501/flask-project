@@ -8,7 +8,7 @@ def home():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>My First Flask Website</title>
+        <title>Flask Website - Version 2</title>
         <style>
             body{
                 font-family: Arial, sans-serif;
@@ -53,7 +53,7 @@ def home():
             }
 
             footer{
-                background:#222;
+                background:#333;
                 color:white;
                 padding:15px;
                 margin-top:30px;
@@ -64,40 +64,26 @@ def home():
     <body>
 
         <header>
-            <h1>Welcome to My Flask Website</h1>
+            <h1>Flask Website - Version 2</h1>
+            <p>CI/CD Pipeline using Docker & Jenkins</p>
         </header>
 
         <div class="container">
 
             <div class="card">
-                <h2>About</h2>
-                <p>This website is created using Python Flask.</p>
-                <p>Flask is a lightweight web framework used to build web applications.</p>
-            </div>
+                <h2>Welcome</h2>
+                <p>This Flask application is deployed using Docker and Jenkins Pipeline.</p>
 
-            <div class="card">
-                <h2>Features</h2>
-                <ul style="list-style:none;">
-                    <li>✔ Python Flask</li>
-                    <li>✔ HTML</li>
-                    <li>✔ CSS</li>
-                    <li>✔ Responsive Design</li>
-                </ul>
-
-                <button onclick="message()">Click Here</button>
+                <button onclick="alert('Deployment Successful!')">
+                    Click Me
+                </button>
             </div>
 
         </div>
 
         <footer>
-            <p>© 2026 My Flask Website</p>
+            © 2026 Flask Docker Jenkins Project | Created by Ritu Sharma
         </footer>
-
-        <script>
-            function message(){
-                alert("Welcome to My Flask Website!");
-            }
-        </script>
 
     </body>
     </html>
